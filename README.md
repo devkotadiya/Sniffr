@@ -137,7 +137,12 @@ CN accounts for 50.9% of shipments and 65.9% of Critical cases. DE has the highe
 
 Create a `.env` file in the **backend directory** and paste the following configuration:
 
-
+```env
+MONGO_URI=mongodb+srv://db_user:smartrisk@smartrisk.3amckfd.mongodb.net/smartrisk?retryWrites=true&w=majority&appName=SmartRisk
+MONGO_DB=smartrisk
+SECRET_KEY=smartrisk-dev-secret-2026
+ANTHROPIC_API_KEY=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
+```
 
 ### Quick Start (Local)
 
